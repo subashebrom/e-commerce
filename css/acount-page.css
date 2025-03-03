@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+}
+body{
+    background-color: #F5F6F7;
+}
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+/* === ACCOUNT === */
+.sh-account{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sh-account-section{
+    width: 85%;
+    gap: 10px;
+    display: flex;
+    align-items: start;
+    justify-items: center;
+
+}
+/* === ACCOUNT LEFT ITEMS === */
+.sh-account-left-items{
+    width: 30%;
+    height: 100%;
+}
+/* === ACCOUNT PROFILE IMAGE === */
+.sh-profile-image img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 1px solid #abb2b9;
+    box-shadow: 3px 3px 5px rgb(0, 0, 0, 0.2);
+}
+.sh-profile-image{
+    gap: 10px;
+    border-radius: 5px;
+    padding: 10px;
+    background: white;
+    box-shadow: 3px 3px 5px rgb(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.sh-profile-image p{
+    font-size: 1.125rem;
+}
+
+/* === ACCOUNT LEFT ITEMS === */
+.sh-account-right-items{
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px;
+    background: white;
+    box-shadow: 3px 3px 5px rgb(0, 0, 0, 0.2);
+}

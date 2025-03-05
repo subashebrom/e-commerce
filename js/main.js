@@ -1,61 +1,77 @@
-function showEditBox(){
+function showEditBox() {
     document.querySelector('.sh-second-account-right-items').style.display = 'none';
     document.querySelector('.sh-second-account-right-items-two').style.display = 'block';
 }
-function saveDetails(){
+
+function saveDetails() {
     document.querySelector('.sh-second-account-right-items-two').style.display = 'none';
     document.querySelector('.sh-order-account-right-items-two').style.display = 'none';
     document.querySelector('.sh-ordered-details').style.display = 'none';
     document.querySelector('.sh-second-account-right-items').style.display = 'block';
 }
-function showSignup(){
+
+function showSignup() {
     document.querySelector('.sh-order-account-right-items-two').style.display = 'none';
     document.querySelector('.sh-account').style.display = 'none';
+    document.querySelector('.sh-second-account-right-items').style.display = 'none'
+    document.querySelector('.sh-menu-item').style.display = 'none'
     document.querySelector('.sh-sing-up-section').style.display = 'block';
 }
-function hideSignup(){
+
+function hideSignup() {
     document.querySelector('.sh-sing-up-section').style.display = 'none';
+    document.querySelector('.sh-second-account-right-items').style.display = 'block'
+    document.querySelector('.sh-menu-item').style.display = 'block'
     document.querySelector('.sh-account-second-section').style.display = 'flex';
     document.querySelector('.sh-account').style.display = 'flex';
 }
 
-function showLoginPage(){
+function showLoginPage() {
     document.querySelector('.sh-account-second-section').style.display = 'none';
     document.querySelector('.sh-account').style.display = 'none';
     document.querySelector('.sh-sing-up-section').style.display = 'none';
     document.querySelector('.sh-sing-up-log-section').style.display = 'block';
 }
-function showsigUpPage(){
+
+function showsigUpPage() {
     document.querySelector('.sh-account-second-section').style.display = 'none';
     document.querySelector('.sh-account').style.display = 'none';
     document.querySelector('.sh-sing-up-section').style.display = 'block';
     document.querySelector('.sh-sing-up-log-section').style.display = 'none';
 }
-function hidelogin(){
+
+function hidelogin() {
     document.querySelector('.sh-account-second-section').style.display = 'flex';
     document.querySelector('.sh-account').style.display = 'flex';
+    document.querySelector('.sh-second-account-right-items').style.display = 'block'
+    document.querySelector('.sh-menu-item').style.display = 'block'
     document.querySelector('.sh-sing-up-section').style.display = 'none';
     document.querySelector('.sh-sing-up-log-section').style.display = 'none';
 }
-function showOtp(){
+
+function showOtp() {
     document.querySelector('.sh-account').style.display = 'none';
     document.querySelector('.sh-account-second-section').style.display = 'none';
     document.querySelector('.sh-sing-up-section').style.display = 'none';
     document.querySelector('.sh-sing-up-log-section').style.display = 'none';
     document.querySelector('.sh-otp-section').style.display = 'block';
 }
-function hideotp(){
+
+function hideotp() {
     document.querySelector('.sh-account').style.display = 'flex';
     document.querySelector('.sh-account-second-section').style.display = 'flex';
+    document.querySelector('.sh-second-account-right-items').style.display = 'block'
+    document.querySelector('.sh-menu-item').style.display = 'block'
     document.querySelector('.sh-sing-up-section').style.display = 'none';
     document.querySelector('.sh-sing-up-log-section').style.display = 'none';
     document.querySelector('.sh-otp-section').style.display = 'none';
 }
 /* ==== ORDER MENU ITEMS ==== */
-function showOrderMenu(){
+function showOrderMenu() {
     document.querySelector('.sh-order-account-right-items-two').style.display = 'block';
     document.querySelector('.sh-second-account-right-items').style.display = 'none';
 }
-function showDitalsOrderedProducts(){
+
+function showDitalsOrderedProducts() {
     document.querySelector('.sh-ordered-details').style.display = 'block';
 }

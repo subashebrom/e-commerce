@@ -149,8 +149,8 @@
                         <ul>
                             <li onclick="showDitalsOrderedProducts()"><a href="#">My Orders</a></li>
                             <li><a href="#">My Returns & Cancellations</a></li>
-                            <li><a href="#">My Wishlist & Followed Stores</a></li>
-                            <li><a href="#">My Reviews</a></li>
+                            <li onclick="showWishlist()"><a href="#">My Wishlist Stores</a></li>
+                            <li onclick="showReview()"><a href="#">My Reviews</a></li>
                         </ul>
                     </div>
                 </div>
@@ -195,6 +195,107 @@
                                     </td>
                                     <td class="sh-ordered-qty">
                                         <p>Qty: 1</p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <!-- === MY WISHLIST PAGES  === -->
+                <div class="sh-wishlist-details">
+                    <div class="sh-Myorder-account-right-items-two">
+                        <div class="sh-order-sub-items">
+                            <ul>
+                                <li onclick="showWishlistTwo()"><a href="#">My Wishlist(1)</a></li>
+                                <li class="sh-past-purchase" onclick="showPastPurchase()"><a href="#">Past Purchase</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="sh-wishlist-box">
+                        <!-- === ORDER PRODUCTS === -->
+                        <div class="sh-My-order-account-right-items-two">
+                            <div class="sh-order-product-name">
+                                <h3>Bd Fashion</h3><!-- === Include here by default brand name === -->
+                            </div>
+                            <hr>
+                            <!-- === ORDERED PRODUCTS === -->
+                            <div class="sh-ordered-products">
+                                <table>
+                                    <tr>
+                                        <td class="sh-ordered-image">
+                                            <img src="/img/trendy 05.jpg" alt="">
+                                        </td>
+                                        <td class="sh-ordered-product-name">
+                                            <p>Lavender Crystal Bead Drop Earrings -150</p>
+                                        </td>
+                                        <td class="sh-ordered-product-price">
+                                            <p>৳ 359</p>
+                                        </td>
+                                        <td class="sh-ordered-qty">
+                                            <button type="button" name="button" class="sh-wish-to-add-btn"><i
+                                                    class="fa-solid fa-cart-plus"></i></button>
+                                        </td>
+                                        <td class="sh-wish-trahs-icon"><i class="fa-solid fa-trash"></i></td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- === MY PAST ORDERS === -->
+                <div class="sh-past-ordered-details">
+                    <!-- === ORDER PRODUCTS === -->
+                    <div class="sh-My-order-account-right-items-two">
+                        <div class="sh-order-product-name">
+                            <h3>Lavender Crystal</h3>
+                            <p>Purchased On</p>
+                        </div>
+                        <hr>
+                        <!-- === ORDERED PRODUCTS === -->
+                        <div class="sh-ordered-products">
+                            <table>
+                                <tr>
+                                    <td class="sh-ordered-image">
+                                        <img src="/img/trendy 05.jpg" alt="">
+                                    </td>
+                                    <td class="sh-ordered-product-name">
+                                        <p>Lavender Crystal Bead Drop Earrings -150</p>
+                                    </td>
+                                    <td class="sh-ordered-product-price">
+                                        <p>৳ 359</p>
+                                    </td>
+                                    <td class="sh-ordered-qty">
+                                        <p>Qty: 1</p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <!-- === MY REVIEWED === -->
+                <div class="sh-reviewed-details">
+                    <!-- === ORDER PRODUCTS === -->
+                    <div class="sh-My-order-account-right-items-two">
+                        <div class="sh-order-product-name">
+                            <h3>Lavender Crystal</h3>
+                            <p>Purchased On</p>
+                        </div>
+                        <hr>
+                        <!-- === ORDERED PRODUCTS === -->
+                        <div class="sh-ordered-products">
+                            <table>
+                                <tr>
+                                    <td class="sh-ordered-image">
+                                        <img src="/img/trendy 05.jpg" alt="">
+                                    </td>
+                                    <td class="sh-reviewd-product-name">
+                                        <p>Lavender Crystal Bead Drop Earrings -150</p>
+                                    </td>
+                                    <td class="sh-horizontal-line"></td>
+                                    <td class="sh-review-box">
+                                        <p>Sold by</p>
+                                        <button type="button" name="button" class="sh-review-btn">Review</button>
                                     </td>
                                 </tr>
                             </table>

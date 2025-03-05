@@ -891,3 +891,61 @@ header {
 .sh-ordered-details{
     display: none;
 }
+.sh-past-ordered-details{
+    display: none;
+}
+.sh-wishlist-details{
+    display: none;
+}
+.sh-reviewed-details{
+    display: none;
+}
+.sh-wish-to-add-btn{
+    width: 20%;
+    padding: 6px 12px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    background: #FFBF00;
+    color: white;
+    border: none;
+}
+.sh-wish-to-add-btn:hover{
+    background: #e7ae04;
+}
+.sh-ordered-qty i{
+    cursor: pointer;
+    font-size: 1rem;
+}
+.sh-wish-trahs-icon i{
+    cursor: pointer;
+    color: rgba(255, 0, 0, 0.475);
+}
+.sh-wish-trahs-icon{
+    text-align: right;
+}
+/* === MY REVIEWED === */
+.sh-horizontal-line{
+    width: 0.3%;
+    height: 100%;
+    background-color: #3f3f3f29;
+}
+.sh-review-box{
+    width: 40%;
+    line-height: 3em;
+    text-align: center;
+}
+.sh-reviewd-product-name{
+    width: 50%;
+}
+.sh-review-btn{
+    width: 50%;
+    padding: 6px 12px;
+    border-radius: 3px;
+    border: 1px solid #FF7F50;
+}
+.sh-review-btn:hover{
+    border: none;
+    background-color: #e7ae04;
+    color: white;
+}

@@ -74,4 +74,32 @@ function showOrderMenu() {
 
 function showDitalsOrderedProducts() {
     document.querySelector('.sh-ordered-details').style.display = 'block';
+    document.querySelector('.sh-order-sub-items').style.display = 'flex';
+    document.querySelector('.sh-My-order-account-right-items-two').style.display = 'block';
+    document.querySelector('.sh-wishlist-details').style.display = 'none';
+    document.querySelector('.sh-reviewed-details').style.display = 'none';
+    document.querySelector('.sh-past-ordered-details').style.display = 'none';
+}
+/* ==== SHOW WSIH LIST ==== */
+function showWishlist(){
+    document.querySelector('.sh-wishlist-details').style.display = 'block';
+    document.querySelector('.sh-ordered-details').style.display = 'none';
+    document.querySelector('.sh-reviewed-details').style.display = 'none';
+}
+function showWishlistTwo(){
+    document.querySelector('.sh-past-ordered-details').style.display = 'none';
+    document.querySelector('.sh-reviewed-details').style.display = 'none';
+    document.querySelector('.sh-wishlist-box').style.display = 'block';
+}
+function showPastPurchase(){
+    document.querySelector('.sh-past-ordered-details').style.display = 'flex';
+    document.querySelector('.sh-wishlist-box').style.display = 'none';
+    document.querySelector('.sh-reviewed-details').style.display = 'none';
+}
+function showReview(){
+    document.querySelector('.sh-reviewed-details').style.display = 'block';
+    document.querySelector('.sh-past-ordered-details').style.display = 'none';
+    document.querySelector('.sh-wishlist-details').style.display = 'none';
+    document.querySelector('.sh-order-sub-items').style.display = 'none';
+    document.querySelector('.sh-My-order-account-right-items-two').style.display = 'none';
 }

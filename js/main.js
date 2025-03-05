@@ -14,6 +14,7 @@ function showSignup() {
     document.querySelector('.sh-order-account-right-items-two').style.display = 'none';
     document.querySelector('.sh-account').style.display = 'none';
     document.querySelector('.sh-second-account-right-items').style.display = 'none'
+    document.querySelector('.sh-second-account-right-items-two').style.display = 'none'
     document.querySelector('.sh-menu-item').style.display = 'none'
     document.querySelector('.sh-sing-up-section').style.display = 'block';
 }

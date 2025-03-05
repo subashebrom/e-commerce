@@ -319,6 +319,38 @@ header {
     height: max-content;
 }
 
+.sh-order-account-right-items-two {
+        display: none;
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    background: white;
+    box-shadow: 3px 3px 5px rgb(0, 0, 0, 0.2);
+    height: max-content;
+}
+
+.sh-MYorder-account-right-items-two {
+    /*     display: none; */
+    position: relative;
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    background: white;
+    box-shadow: 3px 3px 5px rgb(0, 0, 0, 0.2);
+    height: max-content;
+}
+/* === ORDER PRODUCT === */
+.sh-My-order-account-right-items-two {
+    /*     display: none; */
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background: white;
+    box-shadow: 3px 3px 5px rgb(0, 0, 0, 0.2);
+    height: max-content;
+}
+
 .sh-btn-style {
     padding: 2px 16px;
     border-radius: 2px;
@@ -345,12 +377,15 @@ header {
     width: 100%;
     border-right: 1px solid #e5e7e9;
 }
-.sh-sl-details input{
+
+.sh-sl-details input {
     padding: 6px 5px;
 }
-.sh-sl-details input:focus{
+
+.sh-sl-details input:focus {
     outline: none;
 }
+
 .sh-details-section {
     width: 100%;
     display: flex;
@@ -506,7 +541,7 @@ header {
 
 
 /* === SING UP PAGE === */
-.sh-sing-up-section{
+.sh-sing-up-section {
     position: absolute;
     display: none;
     top: 115px;
@@ -519,7 +554,8 @@ header {
     box-shadow: 3px 3px 5px rgb(0, 0, 0, 0.2);
     border-radius: 5px;
 }
-.sh-sing-up-log-section{
+
+.sh-sing-up-log-section {
     position: absolute;
     display: none;
     top: 115px;
@@ -532,7 +568,8 @@ header {
     box-shadow: 3px 3px 5px rgb(0, 0, 0, 0.2);
     border-radius: 5px;
 }
-.sh-otp-section{
+
+.sh-otp-section {
     position: absolute;
     display: none;
     top: 115px;
@@ -545,61 +582,85 @@ header {
     box-shadow: 3px 3px 5px rgb(0, 0, 0, 0.2);
     border-radius: 5px;
 }
-.sh-sign-up{
+
+.sh-sign-up {
     padding: 10px;
 }
-.sh-sign-up ul{
+
+.sh-sign-up ul {
     display: flex;
     align-items: center;
     justify-content: end;
 }
-.sh-sign-up li:first-child{
+
+.sh-sign-up li:first-child {
     margin: auto;
     font-size: 0.875rem;
     color: #454545;
 }
-.sh-sl-details{
+
+.sh-sl-details {
     padding: 10px;
     line-height: 2em;
     display: flex;
     flex-direction: column;
 }
-.sh-sl-details-policy{
+
+.sh-sl-details-policy {
     padding: 10px;
     display: flex;
     align-items: flex-start;
     justify-content: center;
 }
-.sh-sl-details-policy p{
+
+.sh-sl-details-policy p {
     margin-top: -5px;
     font-size: 0.875em;
     text-align: center;
 }
-.sh-sl-details-account{
+
+.sh-sl-details-account {
     padding: 0 0 10px 0;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.sh-sl-details-account span{
+
+.sh-sl-details-account span {
     color: #999999;
 }
-.sh-sl-details-account p{
+
+.sh-sl-details-account p {
     cursor: pointer;
 }
-.sh-sl-details-google-facebook ul{
+
+.sh-sl-details-google-facebook ul {
     gap: 20px;
     padding: 0 0 10px 0;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.sh-sl-details-google-facebook a{
-    margin-left: 8px;
+
+.sh-sl-details-google-facebook {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.sh-send-code{
+
+.sh-sl-details-google-facebook a {
+    margin-left: 8px;
+    font-size: 1.25rem;
+    color: black;
+}
+
+.sh-sl-details-google-facebook i {
+    font-size: 1.5rem;
+}
+
+.sh-send-code {
     transition: all 0.3s ease-in-out;
-    border-radius:2px;
+    border-radius: 2px;
     font-size: 0.875em;
     padding: 6px 85px;
     text-shadow: 0 1px 0 #186a3b;
@@ -610,63 +671,75 @@ header {
     box-shadow: inset 0 1px 0 0 #186a3b;
     background: #1e8449;
 }
-.sh-send-code:hover{
+
+.sh-send-code:hover {
     background: #27ae60;
 }
-.sh-sl-details-forgot{
+
+.sh-sl-details-forgot {
     color: #999999;
     padding: 0 10px 10px 0;
     display: flex;
     align-items: flex-end;
     justify-content: flex-end;
 }
+
 /* ==== OTP SECTION ==== */
-.sh-otp-email-phone{
+.sh-otp-email-phone {
     padding: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.sh-otp-email-phone i{
+
+.sh-otp-email-phone i {
     padding: 10px 20px;
     color: white;
     background: #a9dfbf;
 }
-.sh-otp-email-phone p{
+
+.sh-otp-email-phone p {
     width: 80%;
     padding: 7px 20px;
     color: #999999;
     background: #fbfcfc;
 }
-.sh-otp-text{
+
+.sh-otp-text {
     text-align: center;
     color: #2ecc71;
     font-size: 0.9em;
 }
-.sh-otp-number{
+
+.sh-otp-number {
     margin-top: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
 }
-.sh-otp-number input{
+
+.sh-otp-number input {
     width: 90%;
     border-radius: 3px;
     padding: 5px 5px 5px 50px;
     border: 1px solid #e5e7e9;
 }
-.sh-otp-number input:focus{
+
+.sh-otp-number input:focus {
     outline: none;
 }
-.sh-lock-icon{
+
+.sh-lock-icon {
     position: absolute;
     margin-left: -350px;
 }
-.sh-lock-icon i{
+
+.sh-lock-icon i {
     color: #aba8a8;
 }
-.sh-remember-text{
+
+.sh-remember-text {
     font-size: 0.875rem;
     padding: 10px 25px;
     margin-top: 10px;
@@ -674,21 +747,25 @@ header {
     align-items: center;
     justify-content: space-between;
 }
-.sh-remember-text input{
+
+.sh-remember-text input {
     margin-right: 5px;
 }
-.sh-otp-login{
+
+.sh-otp-login {
     padding: 10px 25px;
 }
-.sh-otp-login{
+
+.sh-otp-login {
     margin-bottom: 20px;
 }
-.sh-otp-login button{
+
+.sh-otp-login button {
     width: 100%;
     font-size: 1.50rem;
     padding: 4px 0;
     transition: all 0.3s ease-in-out;
-    border-radius:2px;
+    border-radius: 2px;
     text-shadow: 0 1px 0 #186a3b;
     color: white;
     border: 1px solid #239b56;
@@ -697,9 +774,120 @@ header {
     box-shadow: inset 0 1px 0 0 #186a3b;
     background: #1e8449;
 }
-.sh-otp-login button:hover{
+
+.sh-otp-login button:hover {
     background: #27ae60;
 }
-.sh-margin{
+
+.sh-margin {
     margin-bottom: 20px;
+}
+
+.sh-order-menu-items ul {
+    display: flex;
+    align-items: center;
+}
+
+.sh-order-menu-items li {
+    height: 50px;
+}
+
+.sh-order-menu-items a {
+    height: 100%;
+    padding: 0px 30px;
+    display: flex;
+    align-content: inherit;
+    align-items: center;
+    color: black;
+}
+
+.sh-order-menu-items a:hover {
+    background-color: #ebecec;
+}
+
+/* ===== MY ORDER PAGES ==== */
+.sh-order-sub-items{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: solid 3px #34495e;
+}
+.sh-order-sub-items ul {
+    display: flex;
+    align-items: center;
+}
+
+.sh-order-sub-items li {
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+.sh-order-sub-items a {
+    height: 100%;
+    padding: 0px 20px;
+    color: black;
+    display: flex;
+    align-items: center;
+}
+.sh-order-sub-items select{
+    border: 1px solid #34495e;
+    appearance: none;
+    border-radius: 4px;
+    padding: 6px 3px;
+}
+.sh-order-sub-items select:focus{
+    outline: none;
+}
+.sh-order-sub-items a:hover::before {
+    position: absolute;
+    content: "";
+    background-color: #FF7F50;
+    visibility: visible;
+    width: max-content;
+    margin-bottom: -42px;
+    width: 60px;
+    height: 4px;
+    opacity: 1;
+}
+/* === ORDER PRODUCTS === */
+.sh-order-product-name{
+    height: 50px;
+    padding: 0px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sh-order-product-name p{
+    padding: 3px 12px;
+    border-radius: 5px;
+    background-color: #34495e46;
+}
+/* === ORDERED PRODUCTS === */
+.sh-ordered-products table{
+    width: 100%;
+    padding: 0px 20px;
+}
+.sh-ordered-products td{
+    padding: 5px 0;
+}
+.sh-ordered-image{
+    width: 10%;
+}
+.sh-ordered-image img{
+    width: 100%;
+    padding-right: 10px;
+}
+.sh-ordered-product-name{
+    width: 25%;
+}
+.sh-ordered-product-price{
+    width: 30%;
+    text-align: center;
+}
+.sh-ordered-qty{
+    empty-cells: 30%;
+    text-align: center;
+}
+.sh-ordered-details{
+    display: none;
 }

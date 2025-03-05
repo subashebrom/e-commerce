@@ -4,15 +4,17 @@ function showEditBox(){
 }
 function saveDetails(){
     document.querySelector('.sh-second-account-right-items-two').style.display = 'none';
+    document.querySelector('.sh-order-account-right-items-two').style.display = 'none';
+    document.querySelector('.sh-ordered-details').style.display = 'none';
     document.querySelector('.sh-second-account-right-items').style.display = 'block';
 }
 function showSignup(){
-    document.querySelector('.sh-account-second-section').style.display = 'none';
+    document.querySelector('.sh-order-account-right-items-two').style.display = 'none';
     document.querySelector('.sh-account').style.display = 'none';
     document.querySelector('.sh-sing-up-section').style.display = 'block';
 }
 function hideSignup(){
-    document.querySelector('.sh-sing-up-section').style.display = 'none'
+    document.querySelector('.sh-sing-up-section').style.display = 'none';
     document.querySelector('.sh-account-second-section').style.display = 'flex';
     document.querySelector('.sh-account').style.display = 'flex';
 }
@@ -48,4 +50,12 @@ function hideotp(){
     document.querySelector('.sh-sing-up-section').style.display = 'none';
     document.querySelector('.sh-sing-up-log-section').style.display = 'none';
     document.querySelector('.sh-otp-section').style.display = 'none';
+}
+/* ==== ORDER MENU ITEMS ==== */
+function showOrderMenu(){
+    document.querySelector('.sh-order-account-right-items-two').style.display = 'block';
+    document.querySelector('.sh-second-account-right-items').style.display = 'none';
+}
+function showDitalsOrderedProducts(){
+    document.querySelector('.sh-ordered-details').style.display = 'block';
 }

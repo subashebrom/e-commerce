@@ -393,17 +393,79 @@ header {
 
 /* === SH ORDER NOW BUTTON === */
 .sh-order-korun-button {
-    background: #DB991B;
+    width: 100%;
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 10px;
     border-radius: 0 0 10px 10px;
+}
+.sh-order-korun-button button{
+    width: 100%;
+    cursor: pointer;
+}
+.sh-btn-style{
+    padding: 4px 10px;
+    border: none;
+}
+.sh-btn-cartbg{
+    transition: all 0.3s ease-in-out;
+    background: #FFBF00;
+}
+.sh-btn-cartbg:hover{
+    background: #e7ae04;
+}
+.sh-btn-orderbg{
+    transition: all 0.3s ease-in-out;
+    background: #FF7F50;
+}
+.sh-btn-orderbg:hover{
+    background: #f3632e;
 }
 
 .sh-order-korun-button a {
     color: white;
     font-size: 16px;
+    font-family: "Hind Siliguri", serif;
+}
+/* .sh-addcart::before{
+    content: "";
+    position: absolute;
+    visibility: hidden;
+    background: #34495e;
+    margin-top: -40px;
+    margin-left: -55px;
+    padding: 6px 12px;
+    border-radius: 3px;
+    color: white;
+    transition: visibility 0.3s ease, opacity 0.3s ease;
+} */
+/* .sh-addcart::before{
+    content: "";
+    position: absolute;
+    visibility: hidden;
+    background: #34495e;
+    margin-top: -40px;
+    margin-left: -55px;
+    padding: 6px 12px;
+    border-radius: 3px;
+    color: white;
+    transition: all 0.5s ease-in-out;
+} */
+/*  .sh-addcart{
+    transition: all 0.5s ease-in-out;
+ } */
+.sh-btn-cartbg:hover::before {
+    position: absolute;
+    content: "Add to Cart";
+    background-color: #34495e;
+    visibility: visible;
+    color: white;
+    padding: 6px 12px;
+    margin-top: -40px;
+    margin-left: -40px;
+    border-radius: 3px;
+    opacity: 1;
 }
 
 /* === footer === */
@@ -466,6 +528,23 @@ header {
         font-size: 16px;
         margin-bottom: 5px;
     }
+    .sh-order-korun-button a{
+        font-size: 0.875em;
+    }
+    .sh-btn-cartbg:hover::before {
+        position: absolute;
+        content: "Add to Cart";
+        background-color: #34495e;
+        visibility: visible;
+        color: white;
+        font-size: 0.875em;
+        padding: 6px;
+        margin-top: -47px;
+        margin-left: -32px;
+        border-radius: 3px;
+        opacity: 1;
+    }
+    
 }
 
 .sm-email-section {

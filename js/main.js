@@ -1,5 +1,9 @@
 function showEditBox() {
     document.querySelector('.sh-second-account-right-items').style.display = 'none';
+    document.querySelector('.sh-wishlist-details').style.display = 'none';
+    document.querySelector('.sh-ordered-details').style.display = 'none';
+    document.querySelector('.sh-reviewed-details').style.display = 'none';
+    document.querySelector('.sh-order-account-right-items-two').style.display = 'none';
     document.querySelector('.sh-second-account-right-items-two').style.display = 'block';
 }
 
@@ -7,12 +11,18 @@ function saveDetails() {
     document.querySelector('.sh-second-account-right-items-two').style.display = 'none';
     document.querySelector('.sh-order-account-right-items-two').style.display = 'none';
     document.querySelector('.sh-ordered-details').style.display = 'none';
+    document.querySelector('.sh-wishlist-details').style.display = 'none';
+    document.querySelector('.sh-reviewed-details').style.display = 'none';
     document.querySelector('.sh-second-account-right-items').style.display = 'block';
 }
 
 function showSignup() {
     document.querySelector('.sh-order-account-right-items-two').style.display = 'none';
     document.querySelector('.sh-account').style.display = 'none';
+    document.querySelector('.sh-My-order-account-right-items-two').style.display = 'none';
+    document.querySelector('.sh-order-sub-items').style.display = 'none';
+    document.querySelector('.sh-reviewed-details').style.display = 'none';
+    document.querySelector('.sh-wishlist-details').style.display = 'none';
     document.querySelector('.sh-second-account-right-items').style.display = 'none'
     document.querySelector('.sh-second-account-right-items-two').style.display = 'none'
     document.querySelector('.sh-menu-item').style.display = 'none'
@@ -71,6 +81,8 @@ function hideotp() {
 function showOrderMenu() {
     document.querySelector('.sh-order-account-right-items-two').style.display = 'block';
     document.querySelector('.sh-second-account-right-items').style.display = 'none';
+    document.querySelector('.sh-second-account-right-items').style.display = 'none';
+    document.querySelector('.sh-second-account-right-items-two').style.display = 'none';
 }
 
 function showDitalsOrderedProducts() {

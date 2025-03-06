@@ -99,7 +99,7 @@ header {
         background-color: rgba(255, 255, 255, 0.125);
     }
 
-/*     .ar-headerContainer {
+    /*     .ar-headerContainer {
         width: 95%;
         display: flex;
         justify-content: space-between;
@@ -818,7 +818,7 @@ header {
 }
 
 .sh-ordered-qty {
-    empty-cells: 30%;
+    width:30%;
     text-align: center;
 }
 
@@ -896,19 +896,23 @@ header {
     background-color: #e7ae04;
     color: white;
 }
+
 /* ==== MOBILE RESPONSIVE ==== */
-@media(max-width:768px){
+@media(max-width:768px) {
     .sh-editable-section {
         width: 100%;
     }
-    .sh-account-second-section{
+
+    .sh-account-second-section {
         width: 100%;
     }
+
     .sh-acount-second-container {
         width: 95%;
         gap: 10px;
         display: grid;
     }
+
     .sh-menu-item {
         width: 100%;
         height: max-content;
@@ -917,31 +921,127 @@ header {
         justify-content: center;
         text-align: center;
     }
+
     .sh-menu-item ul {
         width: 100%;
     }
+
     .sh-second-account-right-items {
         width: 100%;
         border-radius: 5px;
         margin-bottom: 20px;
         height: max-content;
     }
+
     .sh-personal-edit-box {
         padding: 10px;
         display: flex;
         align-items: center;
         justify-content: space-between;
     }
-    .sh-details-section{
+
+    .sh-details-section {
         width: 100%;
         display: flex;
         flex-direction: column;
         height: max-content;
     }
-    .sh-name-container{
+
+    .sh-name-container {
         border-block-end: 1px solid gray;
     }
+
+    /* === SIGN OR LOGIN INFO MOBILE RESPONSIVE === */
+    /* === SING UP PAGE === */
+    .sh-sing-up-section {
+        position: absolute;
+        display: none;
+        top: 100px;
+        left: 0;
+        z-index: 999;
+        width: 100%;
+    }
+    .sh-sing-up-log-section {
+        position: absolute;
+        display: none;
+        top: 100px;
+        left: 0;
+        z-index: 999;
+        width: 100%;
+    }
+    .sh-otp-section {
+        top: 115px;
+        left: 0;
+        z-index: 999;
+        margin-bottom: 60px;
+        width: 100%;
+    }
+    .sh-lock-icon {
+        position: absolute;
+        margin-left: -300px;
+    }
+    .sh-order-menu-items ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .sh-order-menu-items a {
+        width: 100%;
+        padding: 0 30px;
+    }
+    .sh-order-sub-items ul {
+        display: flex;
+        align-items: start;
+    }
+    .sh-order-sub-items a {
+        padding: 0px 15px;
+    }
+    .sh-hidefor-mobile{
+        display: none;
+    }
+    .sh-ordered-products table {
+        width: 100%;
+        padding: 0px 1px;
+    }
+    .sh-ordered-products td {
+        padding: 1px 0;
+    }
+    .sh-ordered-image {
+        width: 20%;
+    }
+    .sh-ordered-product-name {
+        width: 50%;
+    }
+    .sh-ordered-product-name{
+        font-size: 0.875rem;
+    }
+    .sh-ordered-product-price {
+        width: 20%;
+        font-size: 0.875rem;
+        text-align: center;
+    }
+    .sh-ordered-qty {
+        font-size: 0.875rem;
+        text-align: center;
+    }
+    .sh-wish-to-add-btn {
+        width: 100%;
+        padding: 3px 10px;
+    }
+    .sh-ordered-qty i {
+        font-size: 0.875rem;
+    }
+    .sh-review-box {
+        width: 100%;
+        line-height: 3em;
+        text-align: center;
+    }
+    .sh-review-btn {
+        width: 90%;
+        padding: 6px 12px;
+    }
 }
+
 /* === footer === */
 
 .footer {
@@ -982,14 +1082,15 @@ header {
 @media (max-width: 768px) {
     .footer {
         display: none;
-/*         width: 430px;
+        /*         width: 430px;
         padding-left: 20px; */
     }
-    .footer-bg{
+
+    .footer-bg {
         display: none;
     }
 
-/*     .footer-container {
+    /*     .footer-container {
         display: grid;
     }
 

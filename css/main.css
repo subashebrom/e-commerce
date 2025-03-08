@@ -288,10 +288,10 @@ header {
     justify-items: center;
     justify-content: center;
     width: 85%;
-    display: grid;
-    grid-template-columns: 240px 240px 240px 240px 240px;
-    column-gap: 20px;
-    row-gap: 20px;
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 
 }
 
